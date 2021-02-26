@@ -4,7 +4,7 @@
             document.addEventListener('scroll', function (e){
             var offset = window.pageYOffset;
             scroll = offset;
-            text.style.top = - scroll/1 + '%';
+            text.style.top = - scroll/0.8 + '%';
             })
 //Menu Mobile
       const doc = document;
